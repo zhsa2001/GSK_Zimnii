@@ -1,0 +1,70 @@
+header, footer{
+    font-family: 'Sitka Banner',Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo, header a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+header a{
+    align-items: center;
+}
+
+footer {
+    background-color: #9DD7F3;
+}
+
+footer a {              
+    background-color: #78C4E8;
+    align-items: flex-end;
+    border: 1px solid black; 
+}
+
+header{
+    background-color: #436AB3;
+    border: 1px solid black; 
+}
+
+.logoimg{
+    margin: 10px 10px 10px 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon{
+    margin: 0px 6px 0px 15px;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu div {
+    padding: 0px 15px 0px 15px;
+}
+
+a:hover{
+    text-shadow: black 1px 1px;
+    color:white;
+}
+
+.here{
+    color: rgb(27, 43, 138);
+}
+
+#contacts{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#contacts div{
+    flex-basis: 50%;
+    min-width: 400px;
+    margin-bottom: -15px;
+}
+

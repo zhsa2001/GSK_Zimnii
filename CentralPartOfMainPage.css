@@ -1,0 +1,179 @@
+.t{
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.news>div{
+    border: rgb(117,142,197) solid 1px;
+    box-shadow: gray 1px 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.news img{
+    max-width:70%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.news>.pages{
+    border: none;
+    box-shadow: none;
+    display: flex;
+}
+
+.pages a{
+    background-color: #9DD7F3;
+    color:black;
+    border-radius: 2px;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.pages a:hover, .page-link-no-clicked:hover{
+    background-color: #20acf1;
+    text-shadow: none;
+    color:black;
+}
+
+.pages .grey,.pages .grey:hover{
+    background-color: wheat;
+}
+
+.pages .grey:hover{}
+
+.t .btn{
+    background-color: #9DD7F3;
+    color:rgb(156, 100, 16);
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid rgb(156, 100, 16);
+    font-family: 'Sitka Banner',Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.advert{
+    border: rgb(117,142,197) solid 1px;
+    font-family: 'Sitka Banner',Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.advert div{
+    padding-left: 10px;
+    font-size: 1.1rem;
+    
+}
+
+.advert div:first-of-type{
+    border-bottom: black 1px solid;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (min-width: 960px) {
+    #centralpart{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .t{
+        text-align: left;
+        margin: 10px 20px 30px 40px;
+    }
+    
+    
+    .empty{
+        flex-basis:20%;
+    }
+    
+    .news{
+        flex-basis:60%;
+        
+    }
+    
+    .news>div{
+        border: rgb(117,142,197) solid 1px;
+        box-shadow: gray 1px 1px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    
+    }
+    
+    .advert{
+        flex-basis:17%;
+    }
+    
+    .news img{
+        max-width:50%;
+        height: auto;
+        margin-top: 1rem;
+    }
+    
+    
+    
+    .news>.pages{
+        border: none;
+        box-shadow: none;
+        display: flex;
+       border: 0px white;
+    }
+    
+    .pages a{
+        background-color: #9DD7F3;
+        color:black;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-right: 0.5em;
+        border-radius: 2px;
+    }
+    
+    .pages a:hover{
+        background-color: #20acf1;
+        text-shadow: none;
+        color:black;
+    }
+    
+    .pages a:first-of-type,.pages a:last-of-type{ 
+        padding-left: 3em;
+        padding-right: 3em;
+        
+    }
+    
+    .t .btn{
+        background-color: #9DD7F3;
+        color:rgb(156, 100, 16);
+        padding-left: 40px;
+        padding-right: 40px;
+        border: 1px solid rgb(156, 100, 16);
+        font-family: 'Sitka Banner',Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .advert{
+        border: rgb(117,142,197) solid 1px;
+        margin: 10px 0px 0px 10px;
+        font-family: 'Sitka Banner',Georgia, 'Times New Roman', Times, serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .advert div{
+        padding-left: 10px;
+        font-size: 1.1rem;
+        
+    }
+    
+    .advert div:first-of-type{
+        border-bottom: black 1px solid;
+        margin-bottom: 0px;
+        font-size: 1.5rem;
+    }
+}
